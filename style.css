@@ -1,1 +1,35 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background: #111;
+    color: white;
+}
 
+#top {
+    padding: 10px;
+    background: #222;
+    display: flex;
+    gap: 10px;
+}
+
+button {
+    padding: 8px;
+    cursor: pointer;
+}
+
+#container {
+    display: flex;
+    height: calc(100vh - 50px);
+}
+
+#store, #library {
+    width: 50%;
+    padding: 10px;
+    overflow: auto;
+}
+
+.card {
+    background: #333;
+    padding: 10px;
+    margin: 10px 0;
+}
